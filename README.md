@@ -20,7 +20,7 @@ This Terraform module creates structured spaces for digitalocean resources with 
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "spaces" {
-  source        = "git::https://github.com/opsstation/terraform-digitalocean-spaces.git?ref=v1.0.0"
+  source        = "git::https://github.com/yadavprakash/terraform-digitalocean-spaces.git?ref=v1.0.0"
   name          = "spaces"
   environment   = "test"
   acl           = "private"
@@ -34,7 +34,7 @@ module "spaces" {
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "spaces" {
-  source        = "git::https://github.com/opsstation/terraform-digitalocean-spaces.git?ref=v1.0.0"
+  source        = "git::https://github.com/yadavprakash/terraform-digitalocean-spaces.git?ref=v1.0.0"
   name          = "spaces"
   environment   = "test"
   acl           = "private"
@@ -97,7 +97,7 @@ Please ensure you specify the correct 'source' path for the module.
 - `name` : Name  (e.g. `app` or `cluster`).
 - `environment` : Environment (e.g. `prod`, `dev`, `staging`).
 - `label_order` : Label order, e.g. `name`,`application`.
-- `managedby` : ManagedBy, eg 'opsstation'
+- `managedby` : ManagedBy, eg 'yadavprakash'
 - `region` : The region to create spaces.
 - `acl` : Canned ACL applied on bucket creation (private or public-read).
 
@@ -105,14 +105,14 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-spaces/tree/master/_example)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-spaces/tree/master/_example)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-spaces/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yadavprakash/terraform-digitalocean-spaces/blob/master/LICENSE) file for details.
 
 
 
@@ -134,7 +134,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-digitalocean-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-digitalocean-labels.git | v1.0.0 |
 
 ## Resources
 
